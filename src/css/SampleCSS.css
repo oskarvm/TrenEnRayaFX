@@ -1,0 +1,27 @@
+#tablero{
+    -fx-background-color: #3a9e43;
+    -fx-border-color: black;
+    -fx-grid-lines-visible: true;
+}
+
+#pos1, #pos2, #pos3, #pos4, #pos5, #pos6, #pos7, #pos8, #pos9 {
+    -fx-opacity: 0;
+}
+
+#circulo1, #circulo2, #circulo3, #circulo4, #circulo5, #circulo6, #circulo7, #circulo8, #circulo9 {
+    -fx-translate-x: 20px;
+}
+
+#cruz1, #cruz2, #cruz3, #cruz4, #cruz5, #cruz6, #cruz7, #cruz8, #cruz9 {
+    -fx-translate-x: 20px;
+}
+
+#button{
+    -fx-background-color:
+        linear-gradient(#f0ff35, #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, #3a9e43  30%, #b8ee36 70%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #FFFFFF;
+}
